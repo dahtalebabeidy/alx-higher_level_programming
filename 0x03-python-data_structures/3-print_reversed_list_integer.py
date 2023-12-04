@@ -4,3 +4,6 @@ def print_reversed_list_integer(my_list=[]):
         return None
     for i in reversed(my_list):
         print("{:d}".forma(i))
+
+n = [1, 2, 3, 4]
+print_reversed_list_integer(n)
