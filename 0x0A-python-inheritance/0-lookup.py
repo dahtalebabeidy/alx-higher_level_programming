@@ -1,4 +1,4 @@
-#/usr/bin/python3
+#!/usr/bin/python3
 """module for lookup method."""
 def lookup(obj):
     """list object atributs and methods
