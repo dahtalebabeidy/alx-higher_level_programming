@@ -11,7 +11,7 @@ arglist = list(sys.argv[1:])
 
 try:
     old_data = load_from_json_file('add_item.json')
-except Exception:
+except FileNotFoundError:
     old_data = []
 
 old_data.extend(arglist)
